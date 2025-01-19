@@ -257,6 +257,17 @@ footer{
     }
 
     /* banner  */
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner_title{
+        font-size: 2rem;
+    }
+    .banner_image{
+        width: 90%;
+        margin: 0 auto;
+    }
     .banner_content{
         margin-top: 20px;
     }
@@ -306,5 +317,12 @@ footer{
     }
     .sponsor_companies{
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* copyright */
+
+    .copy_right{
+        width: 70%;
+        margin: 0 auto;
     }
 }
