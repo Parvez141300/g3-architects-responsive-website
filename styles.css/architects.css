@@ -308,6 +308,9 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
+    .card{
+        min-height: 133px;
+    }
 
     /* sponsors  */
     .sponsors{
@@ -318,6 +321,11 @@ footer{
     }
     .sponsor_companies{
         grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    .sponsor_companies img{
+        display: block;
     }
 
     /* copyright */
